@@ -5,6 +5,7 @@
  * 
  */
 const express = require('express');
+const Chapi = require('whatsapp-chapi');
 const app = express();
 const config = require('./config/appConfig.js');
 const bodyParser = require('body-parser');
@@ -35,8 +36,7 @@ app.use('/api', api);
 app.use(express.static('public'));
 app.set('views', path.join(__dirname, "/views"))
 app.use('/',checkUser, index);
-//  Login Work Start End
-app.use('/users', users);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -44,6 +44,23 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
+
+//what-s-app-chapi
+app.use("/whatsapp/webhook", bot.middleware());
+const bot = new Chapi(YOUR_INSTANCE_ID_HERE, YOUR_AUTH_TOKEN_HERE);
+bot.signIn('YOUR_WHATSAPP_ACCOUNT_PHONE');
+app.post('/YOUR_WEBHOOK_HERE', function (req, res) {
+    bot.sendMessage(req.body.messages[0].author, 'ECHO TEXT');
+    res.sendStatus(200);
+  });
+  
+// Wasn't that easy? Let's create HTTPS server and set the webhook:
+const http = require('http');
+const port = process.env.PORT || 8080;
+ 
+// Chapi will push messages sent to this URL. Web server should be internet-facing.
+const webhookUrl = process.env.WEBHOOK_URL;
+http.createServer(app).listen(port, () => bot.setWebhook(webhookUrl));
 
 // error handler
 app.use(function(err, req, res, next) {
