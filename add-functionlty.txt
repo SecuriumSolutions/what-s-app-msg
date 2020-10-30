@@ -1,0 +1,94 @@
+Live stream add app-
+https://quantizd.com/building-live-streaming-app-with-node-js-and-react/
+
+
+
+2.Lms App examples:
+
+https://github.com/Luci-Lawless/node-lms
+
+
+3. App desing bst
+https://github.com/sermicromegas/learning-management-system
+
+schema check
+https://github.com/sermicromegas/learning-management-system/blob/master/backend/graphql/resolvers.js
+
+
+
+put post get patch
+https://www.restapitutorial.com/lessons/httpmethods.html#:~:text=The%20primary%20or%20most-commonly-used%20HTTP%20verbs%20%28or%20methods%2C,read%2C%20update%2C%20and%20delete%20%28or%20CRUD%29%20operations%2C%20respectively.
+
+add the 3rd api 
+https://medium.com/@parakh.js/how-to-use-gmail-api-with-node-js-part-1-b17097a64990
+
+
+//laravel site udemy  download
+https://www54.zippyshare.com/v/dQsW057e/file.html
+
+https://github.com/NakamaDesign/learn
+
+
+
+
+//quiz App
+https://github.com/chrisblakely01/quiz-app
+https://github.com/florinpop17
+
+Build a Quiz REST API with NodeJS
+https://dev.to/raymag/build-a-quiz-rest-api-with-nodejs-2p64
+
+//Role permission provider
+https://blog.soshace.com/implementing-role-based-access-control-in-a-node-js-application/
+
+//curriculum App live strem
+https://github.com/faraday-academy/curriculum-app/tree/dev/curriculum-back
+
+
+
+//restaurant App
+https://github.com/anijitsahu/react-app-simple-restaurant-app
+
+BoilerPlate Used React Native https://github.com/kaushiknishchay/React-Native-Boilerplate
+
+BoilerPlate Used React.JS https://github.com/Codebrahma/Codebrahma-React-Boilerplate
+
+
+//levaravvel code
+https://github.com/NakamaDesign/learn
+
+//exam test practis code
+https://www.youtube.com/watch?
+
+//cousers hub
+https://github.com/niemtin007/CourseHub/
+
+
+//hrm
+https://www.codelist.cc/scripts/240941-hrsale-v201-the-ultimate-hrm.html
+
+
+You can find a list of all changes for each release in the `user
+guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+
+
+publisher acc indeed link
+https://ads.indeed.com/jobroll/traffic?hl=en&co=IN
+
+react app ecommers
+https://www.codelist.cc/mobile/241696-react-native-store-ui-template-v10.html
+https://www.codelist.cc/mobile/241676-woobox-v140-woocommerce-android-app-e-commerce-full-mobile-app-kotlin.html
+https://www.codelist.cc/mobile/241283-oreo-fashion-v211-full-react-native-app-for-woocommerce.html
+https://www.codelist.cc/mobile/240184-mstore-pro-v398-complete-react-native-template-for-e-commerce.html
+
+
+
+React native App ui elearing
+https://github.com/Minte-grace/React-Native-Elearning-
+
+//to do list in react js 
+https://www.youtube.com/watch?v=HgfA4W_VjmI
+
+
+//Build a Pet Hotel Web App with React, GraphQL, NodeJS and SQL, MongoDB or Firebase using ScaffoldHub
+https://www.youtube.com/watch?v=MMOvx38dXz4
